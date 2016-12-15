@@ -1,7 +1,7 @@
 
 <?php
-//nullかどうか（符号）*
-if (isset($_POST['operator'])) {
+//nullかどうか（符号）
+if (isset($_POST['operator']) && isset($_POST['left']) && isset($_POST['right'])) {
 
     $sign = $_POST['operator'];
     $num1 = $_POST['left'];
