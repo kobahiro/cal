@@ -1,6 +1,6 @@
 
 <?php
-//nullかどうか（符号）
+//nullかどうか（符号）*
 if (isset($_POST['operator'])) {
 
     $sign = $_POST['operator'];
